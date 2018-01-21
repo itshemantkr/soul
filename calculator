@@ -1,0 +1,29 @@
+#include <iostream.h>
+#include <conio.h>
+#include <math.h>
+
+int main ()
+
+{       
+	clrscr();
+	cout<<"\t\t\t\tCALCULATOR";
+	double a, b;
+	int menu;
+	char option;
+	abc:
+	cout<<"\n\n\t\t\t********** MENU **********";
+	cout<<"\n1. Addition";
+	cout<<"\n2. Subtraction";
+	cout<<"\n3. Multiplication";
+	cout<<"\n4. Division";
+	cout<<"\n5. Sum upto n number ";
+	cout<<"\n6. Sum of squares upto n number ";
+	cout<<"\n7. Logarithm ";
+	cout<<"\n8. Factorial ";
+	do
+	{
+		cout<<"\nEnter operation number from MENU: ";
+		cin>>menu;
+		switch(menu)
+    {
+    }
