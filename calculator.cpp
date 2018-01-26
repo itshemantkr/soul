@@ -10,7 +10,6 @@ long int fact(int a)
 		return a*fact(a-1);
 }
 
-
 int main ()
 {       
 	clrscr();
@@ -35,40 +34,40 @@ int main ()
 		switch(menu)
 		{
 			case 1:
-			cout<<"Enter two numbers: "<<"\n";
+			cout<<"Enter two numbers: ";
 			cin>>a>>b;
 			cout<<a<<" + "<<b<<" = "<<a+b<<"\n";
 			break;
 			case 2:
-			cout<<"Enter two numbers: "<<"\n";
+			cout<<"Enter two numbers: ";
 			cin>>a>>b;
 			cout<<a<<" - "<<b<<" = "<<a-b<<"\n";
 			break;
 			case 3:
-			cout<<"Enter two numbers: "<<"\n";
+			cout<<"Enter two numbers: ";
 			cin>>a>>b;
 			cout<<a<<" x "<<b<<" = "<<a*b<<"\n";
 			break;
 			case 4:
-			cout<<"Enter two numbers: "<<"\n";
+			cout<<"Enter two numbers: ";
 			cin>>a>>b;
 			cout<<a<<" / "<<b<<" = "<<a/b<<"\n";
 			break;
 			case 5: cout<<"\nEnter the number upto which you want the sum: ";
 			cin>>a;
-			cout<<(a*(a+1))/2;
+			cout<<"\nThe sum upto "<<a<<" natural numbers is: "<<(a*(a+1))/2<<"\n";
 			break;
 			case 6: cout<<"\nEnter the number upto which you want the sum of squares: ";
 			cin>>a;
-			cout<<(a*(a+1)*(2*a+1))/6;
+			cout<<"\nThe sum of squares upto "<<a<<" natural numbers is: "<<(a*(a+1)*(2*a+1))/6<<"\n";
 			break;
 			case 7:cout<<"\nEnter the number to find logarithm of the number to the base e: ";
 			cin>>a;
-			cout<<log(a);
+			cout<<"log "<<a<<" = "<<log(a)<<"\n";
 			break;
 			case 8: cout<<"\nEnter the number whose factorial you want to calculate: ";
 			cin>>a;
-			cout<<"\n"<<fact(a);
+			cout<<"\n"<<a<<"! = "<<fact(a)<<"\n";
 			break;
 			default:cout<<"Wrong option chosen :::\n";
 			break;
